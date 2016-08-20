@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+
+	<name>NiftyBox</name>
+	<author>Prana</author>
+	<creationDate>Oct 14, 2009</creationDate>
+	<copyright>(c) 2009 Prana</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@prana.bz</authorEmail>
+	<authorUrl>http://www.prana.bz</authorUrl>
+	<version>1.04</version>
+	<description>NIFTY_DESC</description>
+	<params>
+    <param name="@spacer" type="spacer" default="" label="[GLOBAL OPTIONS]" description="Options for both the box and the multi-column" />
+
+    <param name="backgroundcolor" type="text" default="navajowhite" label="Default Background Color" description="This is the default background color of your boxes. Please read the color chart on the left - or specify a hex value. e.g: #FFFF00" />
+
+    <param name="bordercolor" type="text" default="white" label="Default Border Color" description="This is the default border color of your boxes. Please read the color chart on the left - or specify a hex value. e.g: #FFFF00" />    
+	
+    <param name="padding" type="text" default="10px" label="Default Padding" description="This is the default padding. MS Internet Explorer requires this to be in pixel otherwise no rounded box due to Javascript error - but if you don't care you can specify in the following units: em, px, pt. e.g: 1.0em, 20px, and so on." />    
+
+    <param name="@spacer" type="spacer" default="" label="[NIFTY BOX OPTIONS]" description="Options for nifty box" />
+    <param name="boxfloat" type="radio" default="center" label="Default floating position" description="This is the default floating position if you don't specify it at the tag where the niftybox is displayed">
+        <option value="left">Left</option>
+        <option value="center">Center</option>
+        <option value="right">Right</option>
+    </param>
+
+    <param name="boxclearspace" type="radio" default="no" label="Clear the space around the box?" description="If set to yes, text will not be displayed aligned with the box">
+        <option value="both">Yes</option>
+        <option value="none">No</option>
+    </param>
+
+    <param name="@spacer" type="spacer" default="" label="[NIFTY COLUMN OPTIONS]" description="Options for nifty column" />
+    <param name="columncontainerwidth" type="text" default="100%" label="Container Width" description="The container of the columns. For instance,
+    if you have 3 columns, each single one of them will be contained in a div tag. This is the width of that div tag" />
+    <param name="columngap" type="text" default="20px" label="Column Gap" description="The gap between columns" />
+
+    </params>
+	<files>
+	
+		<filename plugin="niftybox">niftybox.php</filename>
+		<filename plugin="niftybox">niftybox/niftybox.css</filename>
+		<filename plugin="niftybox">niftybox/NiftyLogo.png</filename>
+		<filename plugin="niftybox">niftybox/biggekkoleft.png</filename>
+		<filename plugin="niftybox">niftybox/colortable.php</filename>
+		<filename plugin="niftybox">niftybox/viewcolors.php</filename>
+
+	</files>
+  <languages>
+    <language tag="en-GB">language/en-GB/en-GB.plg_content_niftybox.ini</language>
+  </languages>
+	
+</install>

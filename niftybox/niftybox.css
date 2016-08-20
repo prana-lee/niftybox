@@ -1,0 +1,9 @@
+    .niftyroundbox_b, .niftyroundbox_s {font-size:1px; }
+    .niftyroundbox_1, .niftyroundbox_2, .niftyroundbox_3, .niftyroundbox_4, .niftyroundbox_b, .niftyroundbox_s {display:block; overflow:hidden;color:inherit; }
+    .niftyroundbox_1, .niftyroundbox_2, .niftyroundbox_3, .niftyroundbox_s {height:1px;}
+    .niftyroundbox_2, .niftyroundbox_3, .niftyroundbox_4 {border-style: solid; border-width: 0 1px; }
+    .niftyroundbox_1 {margin:0 5px; }
+    .niftyroundbox_2 {margin:0 3px; border-width:0 2px;}
+    .niftyroundbox_3 {margin:0 2px;}
+    .niftyroundbox_4 {height:2px; margin:0 1px;}
+    .niftyroundbox_c {display:block; border-style: solid ; color:inherit; border-width: 0 1px;}
